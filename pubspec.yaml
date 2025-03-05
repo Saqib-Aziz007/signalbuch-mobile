@@ -1,0 +1,102 @@
+name: news_app
+description: A new Flutter application.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 6.0.2+38
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cached_network_image: ^3.3.1
+  cloud_firestore: ^4.17.5
+  firebase_analytics: ^10.10.7
+  firebase_auth: ^4.20.0
+  firebase_core: ^2.32.0
+  firebase_messaging: ^14.9.4
+  firebase_storage: ^11.7.7
+  cupertino_icons: ^1.0.5
+  easy_localization: ^3.0.7
+  flutter_web_browser: ^0.17.1
+  flutter_html: ^3.0.0-beta.2
+  google_fonts: ^6.2.1
+  google_sign_in: ^6.1.1
+  html_unescape: ^2.0.0
+  image_picker: ^1.1.2
+  introduction_screen: ^3.1.14
+  launch_review: ^3.0.1
+  lottie: ^2.1.0
+  path_provider: ^2.0.15
+  share: ^2.0.4
+  shared_preferences: ^2.1.1
+  fluttertoast: ^8.2.6
+  url_launcher: ^6.3.0
+  rounded_loading_button_plus: ^3.0.1
+  flutter_facebook_auth: ^7.0.1
+  the_apple_sign_in: ^1.1.1
+  hive_flutter: ^1.1.0
+  loading_indicator: ^3.1.0
+  reading_time: ^2.0.0
+  last_pod_player: ^0.0.5
+  google_mobile_ads: ^4.0.0
+  app_settings: ^5.1.1
+  flutter_riverpod: ^2.5.1
+  flutter_svg: ^2.0.9
+  line_icons: ^2.0.3
+  feather_icons: ^1.2.0
+  shimmer: ^3.0.0
+  material_dialogs: ^1.1.4
+  sign_in_with_apple: ^6.1.1
+  simple_animations: ^5.0.2
+  quiver: ^3.2.1
+  carousel_slider: ^5.0.0
+  soundcloud_explode_dart: ^1.0.2
+  just_audio: ^0.9.38
+  in_app_purchase: ^3.1.13
+  in_app_purchase_android: ^0.3.6+1
+  in_app_purchase_platform_interface: ^1.3.7
+  in_app_purchase_storekit: ^0.3.17
+  icons_plus: ^5.0.0
+  intl_phone_number_input_perci: ^0.7.5
+  package_info_plus: ^8.0.0
+  otp_text_field: ^1.1.3
+  crypto: ^3.0.3
+  html: ^0.15.4
+  dots_indicator: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: "^0.13.1"
+  change_app_package_name: ^1.2.0
+  flutter_lints: ^4.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.png"
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animation_files/
+    - assets/translations/
+# com.signal.buch
+# SHA1: 21:F4:38:55:F2:FF:1C:C5:69:9C:D0:A8:FF:AA:36:6D:DA:D7:8D:48
+# SHA256: E2:E5:6B:D1:31:50:C5:C6:63:C7:CF:6B:AF:C1:D5:EA:A6:4F:0A:31:BB:72:4D:EC:5D:AB:74:A6:BA:90:38:E8
+# Certificate fingerprints:
+# SHA1: 58:73:A6:C2:2D:9B:4F:EF:8C:55:6C:1C:30:97:9C:43:E3:FC:E8:48
+# SHA256: B2:72:18:44:06:2B:C8:EB:8A:57:46:46:48:DD:E6:F3:BC:BA:6B:D2:49:4F:F4:55:97:E6:4B:40:C5:B5:C6:90
+
+# FirebaseConsoleAPNs
+# 4FK84APAR9
+# app store team id
+# 6D9GZ8LP4B
